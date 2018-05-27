@@ -6,12 +6,8 @@
     <div class="flex items-center w-auto ml-auto">
       <div class="text-sm flex-grow">
         <%= link "Home", to: page_path(@conn, :index), class: "hidden md:inline-block mt-0 inline-block text-blue hover:text-black mr-4 no-underline" %>
-        <a href="#responsive-header" class="hidden mt-0 md:inline-block text-blue hover:text-black mr-4 no-underline">
-          About Us
-        </a>
-        <a href="#responsive-header" class="hidden mt-0 md:inline-block text-blue hover:text-black no-underline">
-          Contact Us
-        </a>
+        <%= link "About Us", to: page_path(@conn, :about), class: "hidden md:inline-block mt-0 inline-block text-blue hover:text-black mr-4 no-underline" %>
+        <%= link "Contact Us", to: page_path(@conn, :contact), class: "hidden md:inline-block mt-0 inline-block text-blue hover:text-black no-underline" %>
       </div>
     </div>
     <div>

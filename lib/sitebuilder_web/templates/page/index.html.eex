@@ -1,0 +1,19 @@
+<div class="bg-grey-darkest px-6 py-4 text-white">
+  <div class="flex flex-wrap justify-between container mx-auto">
+    <div>
+      +60 13 881 0882
+    </div>
+    <div>
+      Facebook
+    </div>
+  </div>
+</div>
+<div class="bg-kk bg-cover bg-grey-lighter text-center text-white text-lg leading-normal py-8">
+  <div class="container mx-auto py-8">
+    <div class="my-8 mx-4">
+      <h1 class="text-3xl text-shadow mb-2">Website Rental in Kota Kinabalu</h1>
+      <h2 class="mb-8 text-xl text-shadow">The Best SEO Firm Available in Sabah!</h2>
+      <%= link "013 881 0882", to: "tel:+60138810882", class: "bg-green hover:bg-green-dark px-8 py-3 no-underline text-white text-xl shadow-md border border-green-dark" %>
+    </div>
+  </div>
+</div>
