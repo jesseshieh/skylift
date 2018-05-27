@@ -1,0 +1,38 @@
+<div class="bg-grey-darkest text-center text-white leading-normal">
+  <div class="container mx-auto p-8">
+    <div class="w-full md:w-3/4 lg:w-3/4 mx-auto">
+      <div class="flex flex-wrap flex-col md:flex-row">
+        <div class="flex-1 m-4 md:my-0">
+          <div class="text-lg font-bold mb-2">About us</div>
+          <p>Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet.</p>
+        </div>
+        <div class="flex-1 m-4 md:my-0">
+          <div class="text-lg font-bold mb-2">Navigations</div>
+          <ul class="list-reset">
+            <li class="my-2"><a href="#" class="my-2 text-white no-underline hover:underline">About Us</a></li>
+            <li class="my-2"><a href="#" class="my-2 text-white no-underline hover:underline">Contact Us</a></li>
+            <li class="my-2"><a href="#" class="my-2 text-white no-underline hover:underline">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="flex-1 m-4 md:my-0">
+          <div class="text-lg font-bold mb-2">Connect with us</div>
+          <ul class="list-reset">
+            <li class="my-2"><a href="#" class="text-white no-underline hover:underline">Facebook</a></li>
+            <li class="my-2"><a href="#" class="text-white no-underline hover:underline">Twitter</a></li>
+            <li class="my-2"><a href="#" class="text-white no-underline hover:underline">Instagram</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="bg-black text-center text-white text-sm leading-normal">
+  <div class="container mx-auto px-8 py-4">
+    <div class="w-full md:w-3/4 lg:w-3/4 mx-auto">
+      © 2018 SiteBuilder. All Rights Reserved.
+    </div>
+  </div>
+</div>

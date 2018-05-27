@@ -7,29 +7,27 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hello Sitebuilder!</title>
+    <title><%= page_title @conn, "SiteBuilder - Build & Rent Website" %></title>
+    <meta name="description" content="<%= meta_description @conn, "dummy description" %>" />
+    <meta name="robots" content="<%= no_index @conn, "index" %>" />
+
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
   <body>
-    <div class="container">
-      <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
-          </ul>
-        </nav>
-        <span class="logo"></span>
-      </header>
-
-      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+    <div id="trapago">
+      <%= render "navbar.html", conn: @conn %>
+      <%= render "alerts.html", conn: @conn %>
 
       <main role="main">
         <%= render @view_module, @view_template, assigns %>
       </main>
 
-    </div> <!-- /container -->
+      <%= render "footer.html", conn: @conn %>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="<%= static_path(@conn, "/js/shared.js") %>"></script>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
