@@ -7,23 +7,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><%= page_title @conn, "Skylift - Build & Rent Website" %></title>
+    <title><%= page_title @conn, "dummy title" %></title>
     <meta name="description" content="<%= meta_description @conn, "dummy description" %>" />
     <meta name="robots" content="<%= no_index @conn, "index" %>" />
 
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
-  <body>
-    <div id="skylift">
-      <%= render "navbar.html", conn: @conn %>
+  <body class="bg-black">
+    <%= render "navbar.html", conn: @conn %>
 
-      <main role="main">
-        <%= render @view_module, @view_template, assigns %>
-      </main>
+    <main role="main" class="bg-white">
+      <%= render @view_module, @view_template, assigns %>
+    </main>
 
-      <%= render "footer.html", conn: @conn %>
-    </div>
+    <%= render "footer.html", conn: @conn %>
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="<%= static_path(@conn, "/js/shared.js") %>"></script>
