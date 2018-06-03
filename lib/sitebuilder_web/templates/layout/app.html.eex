@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><%= page_title @conn, "SiteBuilder - Build & Rent Website" %></title>
+    <title><%= page_title @conn, "Skylift - Build & Rent Website" %></title>
     <meta name="description" content="<%= meta_description @conn, "dummy description" %>" />
     <meta name="robots" content="<%= no_index @conn, "index" %>" />
 
@@ -15,9 +15,8 @@
   </head>
 
   <body>
-    <div id="trapago">
+    <div id="skylift">
       <%= render "navbar.html", conn: @conn %>
-      <%= render "alerts.html", conn: @conn %>
 
       <main role="main">
         <%= render @view_module, @view_template, assigns %>

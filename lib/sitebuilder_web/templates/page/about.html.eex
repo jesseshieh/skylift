@@ -1,0 +1,17 @@
+<div class="container mx-auto px-6 py-8">
+  <div class="flex flex-wrap flex-col md:flex-row">
+    <div class="w-full md:w-3/5 p-4">
+      <h1>About</h1>
+    </div>
+    <div class="w-full md:w-2/5 p-4">
+      <div class="bg-green text-white shadow p-4">
+        <h2>Testimonial Title</h2>
+        <p>
+          I just wanted to say thank you for the prompt service. Mr. Lo was very friendly and really professional. This is my first time calling for towing and I was a little worried, but the experience was completely painless and the price is OK.
+        </p>
+        <hr class="border-t border-white">
+        <p>Linda Yong, Penampang</p>
+      </div>
+    </div>
+  </div>
+</div>
