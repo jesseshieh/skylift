@@ -29,11 +29,9 @@
     </div>
     <div class="w-full md:w-2/5 p-4">
       <div class="bg-green text-white shadow p-4">
-        <h2>Testimonial Title</h2>
-        <p>
-          I just wanted to say thank you for the prompt service. Mr. Lo was very friendly and really professional. This is my first time calling for towing and I was a little worried, but the experience was completely painless and the price is OK.
-        </p>
-        <hr class="border-t border-white">
+        <h4 class="text-2xl mb-3">Pocket Wifi</h4>
+        <p>It was my first time with the Travelwifi and it was amazing! Chega my all trip because it was fast, strong and my phone bill was less expensive at the end , with no surprises!</p>
+        <hr class="my-4 border-t border-white">
         <p>Linda Yong, Penampang</p>
       </div>
     </div>
