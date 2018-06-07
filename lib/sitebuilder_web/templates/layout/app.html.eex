@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
-  <body>
-    <div id="sitebuilder" class="bg-black">
+  <body class="bg-black">
+    <div id="sitebuilder" >
       <%= render "navbar.html", conn: @conn %>
 
       <main role="main" class="bg-white">

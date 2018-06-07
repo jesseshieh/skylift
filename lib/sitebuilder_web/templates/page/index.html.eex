@@ -24,22 +24,22 @@
       <p class="mb-6 text-center">We are Kota Kinabalu's Best Pocket Wifi Rental Provider. Enjoy fast and reliable internet access    anytime, anywhere during your trip in Sabah. We're friendly and our clients love us :)</p>
 
       <div class="flex flex-wrap flex-col md:flex-row text-white">
-        <div class="flex-1 bg-blue p-4 m-2">
+        <div class="flex-1 bg-blue p-4 my-2 md:m-2">
           <h2 class="mb-1">Pocket Wifi</h2>
           <p>It was my first time with the Travelwifi and it was amazing! Chega my all trip because it was fast, strong and my phone bill was less expensive at the end , with no surprises!</p>
         </div>
-        <div class="flex-1 bg-grey-darkest p-4 m-2">
+        <div class="flex-1 bg-grey-darkest p-4 my-2 md:m-2">
           <h2 class="mb-1">Pocket Wifi</h2>
           <p>It was my first time with the Travelwifi and it was amazing! Chega my all trip because it was fast, strong and my phone bill was less expensive at the end , with no surprises!</p>
         </div>
       </div>
 
       <div class="flex flex-wrap flex-col md:flex-row text-white">
-        <div class="flex-1 bg-blue p-4 m-2">
+        <div class="flex-1 bg-blue p-4 my-2 md:m-2">
           <h2 class="mb-1">Pocket Wifi</h2>
           <p>It was my first time with the Travelwifi and it was amazing! Chega my all trip because it was fast, strong and my phone bill was less expensive at the end , with no surprises!</p>
         </div>
-        <div class="flex-1 bg-grey-darkest p-4 m-2">
+        <div class="flex-1 bg-grey-darkest p-4 my-2 md:m-2">
           <h2 class="mb-1">Pocket Wifi</h2>
           <p>It was my first time with the Travelwifi and it was amazing! Chega my all trip because it was fast, strong and my phone bill was less expensive at the end , with no surprises!</p>
         </div>
@@ -49,18 +49,18 @@
 </div>
 
 <div class="bg-blue leading-normal shadow-inner">
-  <div class="container mx-auto px-6 py-8">
+  <div class="container mx-auto p-8">
 
     <div class="flex flex-no-wrap flex-col md:flex-row">
       <div class="w-full md:w-2/3 p-2 text-white">
         <h3 class="text-3xl mb-2">About Us</h3>
         <p>It was my first time with the Travelwifi and it was amazing! Chega my all trip because it was fast, strong and my phone bill was less expensive at the end , with no surprises!</p>
       </div>
-      <div class="w-full md:w-1/3 bg-white p-4 m-2 shadow-md">
+      <div class="w-full md:w-1/3 bg-white p-4 shadow-md">
         <h4 class="text-xl text-blue mb-1">Pocket Wifi</h4>
         <p>It was my first time with the Travelwifi and it was amazing! Chega my all trip because it was fast, strong and my phone bill was less expensive at the end , with no surprises!</p>
         <hr class="my-4 border-t border">
-        <p class="text-grey-darker">Linda Yong, Penampang</p>
+        <div class="text-grey-darker">Linda Yong, Penampang</div>
       </div>
     </div>
 
