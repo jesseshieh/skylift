@@ -14,14 +14,16 @@
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
-  <body class="bg-black">
-    <%= render "navbar.html", conn: @conn %>
+  <body>
+    <div id="sitebuilder" class="bg-black">
+      <%= render "navbar.html", conn: @conn %>
 
-    <main role="main" class="bg-white">
-      <%= render @view_module, @view_template, assigns %>
-    </main>
+      <main role="main" class="bg-white">
+        <%= render @view_module, @view_template, assigns %>
+      </main>
 
-    <%= render "footer.html", conn: @conn %>
+      <%= render "footer.html", conn: @conn %>
+    </div>
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="<%= static_path(@conn, "/js/shared.js") %>"></script>
