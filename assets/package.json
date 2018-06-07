@@ -9,6 +9,7 @@
     "phoenix": "file:../deps/phoenix",
     "phoenix_html": "file:../deps/phoenix_html",
     "vue": "^2.5.2",
+    "vue-clickaway": "^2.2.2",
     "vue-i18n": "^7.3.2",
     "vuejs-datepicker": "^0.9.29"
   },
@@ -48,4 +49,3 @@
     "deploy": "webpack -p"
   }
 }
-
