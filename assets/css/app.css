@@ -9,3 +9,12 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, figure, p, pre {
 button:focus {
   outline: 0;
 }
+
+.bg-kk {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ), url("/images/skylift-rental-kota-kinabalu.jpeg");
+  background-position-y: 25%;
+  background-position-x: 50%;
+}

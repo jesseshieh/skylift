@@ -1,7 +1,7 @@
 <nav class="bg-white px-6 py-4 border-b shadow">
   <div class="flex items-center justify-between flex-wrap container mx-auto">
     <a href="/" class="flex items-center flex-no-shrink text-blue mr-6 no-underline">
-      <span class="font-semibold text-xl tracking-tight">SiteBuilder</span>
+      <span class="font-semibold text-xl tracking-tight">Skylift Rental KK</span>
     </a>
     <div class="flex items-center w-auto ml-auto">
       <div class="text-sm flex-grow">
