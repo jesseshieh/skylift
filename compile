@@ -1,2 +1,5 @@
+brunch build --production
+
 cd $phoenix_dir
+
 mix "phx.digest"
